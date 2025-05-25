@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Moses Adebayo Wires and Cables Ltd | Home</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+  <link rel="icon" href="Moses Adebayo logo.png" type="image/x-icon" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav class="navbar">
+    <a href="index.html" class="logo-link">
+      <img src="Moses Adebayo logo.png" alt="Logo" class="logo" />
+    </a>
+    <button class="nav-toggle" aria-label="Toggle navigation">
+      <span class="hamburger"></span>
+    </button>
+    <div class="nav-links">
+      <a href="about.html">About Us</a>
+      <a href="products.html">Products</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="testimonials.html">Testimonial</a>
+      <a href="contact.html">Contact Us</a>
+    </div>
+  </nav>
+
+  <section class="hero-section" id="home">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1>Moses Adebayo Wires and Cables Ltd</h1>
+      <p>Major Distributor of NIGERCHIN Wires and Cables</p>
+      <a href="products.html" class="cta-button">Explore Products</a>
+    </div>
+  </section>
+
+  <section class="section alt-bg" id="about-preview">
+    <h2>About Us</h2>
+    <p style="text-align:center; max-width:800px; margin:auto;">
+      We are proud distributors of NIGERCHIN wires and cables, offering premium quality electrical solutions for residential, industrial, and commercial applications.
+    </p>
+    <div style="text-align:center; margin-top:15px;">
+      <a href="about.html" class="cta-button" style="background:#003366; color:#fff;">Read More</a>
+    </div>
+  </section>
+
+  <section class="section" id="products">
+  <h2>Our Products</h2>
+  <div class="product-grid">
+    <a href="armouredandnon-armoured.html" class="product-card">
+      <img src="armoured.jpeg" alt="Non-Armoured Cables">
+      <h3>Aluminium Armoured And Non-Armoured Cable</h3>
+      <p>High-quality cables for various applications, available in both armoured and non-armoured options.</p>
+    </a>
+    <a href="Aluminium Conductor PVC Insulated And Oversheath Service Entrance.html" class="product-card">
+      <img src="3 CORES Insulated, PVC Bedded, PVC Sheathed Cable, 0.6 -1kV.jpeg" alt="Armoured Cables">
+      <h3>Aluminium Conductor PVC Insulated And Oversheath Service Entrance</h3>
+      <p>Durable and reliable service entrance cables designed for optimal performance in electrical installations.</p>
+    </a>
+    <a href="Aluminium Conductor PVC Insulated Service Entrance.html" class="product-card">
+      <img src="Aluminium Conductor PVC Insulated Service Entrance.jpeg" alt="Armoured Cables">
+      <h3>Aluminium Conductor PVC Insulated Service Entrance</h3>
+      <p>Robust service entrance cables with PVC insulation, ensuring safety and efficiency in power distribution.</p>
+    </a>
+    <a href="Bare All Aluminium Conductor.html" class="product-card">
+      <img src="All Aluminum Stranded Conductor (AAC).jpeg" alt="Armoured Cables">
+      <h3>All Aluminum Stranded Conductor (AAC)</h3>
+      <p>High-quality stranded conductors made from aluminum, ideal for overhead power lines and other applications.</p>
+    </a>
+  </div>
+</section>
+<div style="text-align: center; margin-top: 30px;">
+  <a href="products.html" class="cta-button">See More Products</a>
+</div>
+
+
+
+  <footer class="footer">
+  <p>&copy; 2025 Moses Adebayo Wires and Cables Ltd | +234 803 307 8511<br>
+  CA15/16, Alaba Int'l Market, Ojo Igbedé Road, Lagos<br>
+  &copy; Made by Fikkysax</p>
+</footer>
+
+
+  <script>
+    const navToggle = document.querySelector('.nav-toggle');
+    const navLinks = document.querySelector('.nav-links');
+
+    navToggle.addEventListener('click', () => {
+      navToggle.classList.toggle('active');
+      navLinks.classList.toggle('show');
+    });
+  </script>
+
+</body>
+</html>
