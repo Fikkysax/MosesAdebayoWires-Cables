@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Testimonials | Moses Adebayo Wires and Cables Ltd</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+  <link rel="icon" href="Moses Adebayo logo.png" type="image/x-icon" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav class="navbar">
+    <a href="index.html" class="logo-link">
+      <img src="Moses Adebayo logo.png" alt="Logo" class="logo" />
+    </a>
+    <button class="nav-toggle" aria-label="Toggle navigation">
+      <span class="hamburger"></span>
+    </button>
+    <div class="nav-links">
+      <a href="about.html">About Us</a>
+      <a href="products.html">Products</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="testimonials.html" class="active">Testimonial</a>
+      <a href="contact.html">Contact Us</a>
+    </div>
+  </nav>
+
+  <section class="section" id="testimonials">
+    <h2>What Our Clients Say</h2>
+    <blockquote>
+      “Moses Adebayo Wires and Cables Ltd is our trusted source for high-quality wiring. We’ve never been disappointed!”<br />
+      — A Satisfied Customer
+    </blockquote>
+  </section>
+
+  <footer class="footer">
+  <p>&copy; 2025 Moses Adebayo Wires and Cables Ltd | +234 803 307 8511<br>
+  CA15/16, Alaba Int'l Market, Ojo Igbedé Road, Lagos<br>
+  &copy; Made by Fikkysax</p>
+</footer>
+
+
+  <script>
+    const navToggle = document.querySelector('.nav-toggle');
+    const navLinks = document.querySelector('.nav-links');
+
+    navToggle.addEventListener('click', () => {
+      navToggle.classList.toggle('active');
+      navLinks.classList.toggle('show');
+    });
+  </script>
+
+</body>
+</html>
